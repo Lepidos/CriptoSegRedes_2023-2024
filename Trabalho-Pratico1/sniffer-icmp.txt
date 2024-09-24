@@ -1,0 +1,28 @@
+###[ Ethernet ]### 
+  dst       = 70:85:c2:94:62:30
+  src       = 10:13:31:6b:1e:f0
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x88
+     len       = 28
+     id        = 0
+     flags     = 
+     frag      = 0
+     ttl       = 58
+     proto     = icmp
+     chksum    = 0xae5b
+     src       = 8.8.8.8
+     dst       = 192.168.1.70
+     \options   \
+###[ ICMP ]### 
+        type      = echo-reply
+        code      = 0
+        chksum    = 0x0
+        id        = 0x0
+        seq       = 0x0
+        unused    = ''
+###[ Padding ]### 
+           load      = '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+

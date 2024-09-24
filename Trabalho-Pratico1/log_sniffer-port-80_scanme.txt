@@ -1,0 +1,851 @@
+###[ Ethernet ]### 
+  dst       = 02:42:7a:d1:94:aa
+  src       = 02:42:ac:11:00:02
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 60
+     id        = 31917
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xc43e
+     src       = 172.17.0.2
+     dst       = 45.33.32.156
+     \options   \
+###[ TCP ]### 
+        sport     = 46642
+        dport     = http
+        seq       = 2136429017
+        ack       = 0
+        dataofs   = 10
+        reserved  = 0
+        flags     = S
+        window    = 64240
+        chksum    = 0xf9fe
+        urgptr    = 0
+        options   = [('MSS', 1460), ('SAckOK', b''), ('Timestamp', (401105167, 0)), ('NOP', None), ('WScale', 7)]
+
+###[ Ethernet ]### 
+  dst       = 02:42:7a:d1:94:aa
+  src       = 02:42:ac:11:00:02
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 60
+     id        = 30960
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xc7fb
+     src       = 172.17.0.2
+     dst       = 45.33.32.156
+     \options   \
+###[ TCP ]### 
+        sport     = 46656
+        dport     = http
+        seq       = 2641320855
+        ack       = 0
+        dataofs   = 10
+        reserved  = 0
+        flags     = S
+        window    = 64240
+        chksum    = 0xf9fe
+        urgptr    = 0
+        options   = [('MSS', 1460), ('SAckOK', b''), ('Timestamp', (401105178, 0)), ('NOP', None), ('WScale', 7)]
+
+###[ Ethernet ]### 
+  dst       = 02:42:7a:d1:94:aa
+  src       = 02:42:ac:11:00:02
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 60
+     id        = 28005
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xd386
+     src       = 172.17.0.2
+     dst       = 45.33.32.156
+     \options   \
+###[ TCP ]### 
+        sport     = 46670
+        dport     = http
+        seq       = 417437234
+        ack       = 0
+        dataofs   = 10
+        reserved  = 0
+        flags     = S
+        window    = 64240
+        chksum    = 0xf9fe
+        urgptr    = 0
+        options   = [('MSS', 1460), ('SAckOK', b''), ('Timestamp', (401105180, 0)), ('NOP', None), ('WScale', 7)]
+
+###[ Ethernet ]### 
+  dst       = 02:42:ac:11:00:02
+  src       = 02:42:7a:d1:94:aa
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x30
+     len       = 60
+     id        = 0
+     flags     = DF
+     frag      = 0
+     ttl       = 42
+     proto     = tcp
+     chksum    = 0x56bc
+     src       = 45.33.32.156
+     dst       = 172.17.0.2
+     \options   \
+###[ TCP ]### 
+        sport     = http
+        dport     = 46656
+        seq       = 2564792939
+        ack       = 2641320856
+        dataofs   = 10
+        reserved  = 0
+        flags     = SA
+        window    = 65160
+        chksum    = 0x1bca
+        urgptr    = 0
+        options   = [('MSS', 1460), ('SAckOK', b''), ('Timestamp', (877960082, 401105178)), ('NOP', None), ('WScale', 7)]
+
+###[ Ethernet ]### 
+  dst       = 02:42:7a:d1:94:aa
+  src       = 02:42:ac:11:00:02
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 30961
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xc802
+     src       = 172.17.0.2
+     dst       = 45.33.32.156
+     \options   \
+###[ TCP ]### 
+        sport     = 46656
+        dport     = http
+        seq       = 2641320856
+        ack       = 2564792940
+        dataofs   = 8
+        reserved  = 0
+        flags     = A
+        window    = 502
+        chksum    = 0xf9f6
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (401105330, 877960082))]
+
+###[ Ethernet ]### 
+  dst       = 02:42:7a:d1:94:aa
+  src       = 02:42:ac:11:00:02
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 521
+     id        = 30962
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xc62c
+     src       = 172.17.0.2
+     dst       = 45.33.32.156
+     \options   \
+###[ TCP ]### 
+        sport     = 46656
+        dport     = http
+        seq       = 2641320856
+        ack       = 2564792940
+        dataofs   = 8
+        reserved  = 0
+        flags     = PA
+        window    = 502
+        chksum    = 0xfbcb
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (401105330, 877960082))]
+###[ Raw ]### 
+           load      = 'GET / HTTP/1.1\r\nHost: scanme.org\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\nCookie: _ga=GA1.2.888684764.1696801399; _gid=GA1.2.567181415.1696801399; _ga_ZLCVHN7NXS=GS1.2.1696801399.1.1.1696802323.0.0.0; _gat=1\r\nUpgrade-Insecure-Requests: 1\r\n\r\n'
+
+###[ Ethernet ]### 
+  dst       = 02:42:ac:11:00:02
+  src       = 02:42:7a:d1:94:aa
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x30
+     len       = 60
+     id        = 0
+     flags     = DF
+     frag      = 0
+     ttl       = 42
+     proto     = tcp
+     chksum    = 0x56bc
+     src       = 45.33.32.156
+     dst       = 172.17.0.2
+     \options   \
+###[ TCP ]### 
+        sport     = http
+        dport     = 46670
+        seq       = 1828517783
+        ack       = 417437235
+        dataofs   = 10
+        reserved  = 0
+        flags     = SA
+        window    = 65160
+        chksum    = 0x3c62
+        urgptr    = 0
+        options   = [('MSS', 1460), ('SAckOK', b''), ('Timestamp', (877960084, 401105180)), ('NOP', None), ('WScale', 7)]
+
+###[ Ethernet ]### 
+  dst       = 02:42:7a:d1:94:aa
+  src       = 02:42:ac:11:00:02
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 28006
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xd38d
+     src       = 172.17.0.2
+     dst       = 45.33.32.156
+     \options   \
+###[ TCP ]### 
+        sport     = 46670
+        dport     = http
+        seq       = 417437235
+        ack       = 1828517784
+        dataofs   = 8
+        reserved  = 0
+        flags     = A
+        window    = 502
+        chksum    = 0xf9f6
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (401105331, 877960084))]
+
+###[ Ethernet ]### 
+  dst       = 02:42:ac:11:00:02
+  src       = 02:42:7a:d1:94:aa
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x30
+     len       = 60
+     id        = 0
+     flags     = DF
+     frag      = 0
+     ttl       = 36
+     proto     = tcp
+     chksum    = 0x5cbc
+     src       = 45.33.32.156
+     dst       = 172.17.0.2
+     \options   \
+###[ TCP ]### 
+        sport     = http
+        dport     = 46642
+        seq       = 451608834
+        ack       = 2136429018
+        dataofs   = 10
+        reserved  = 0
+        flags     = SA
+        window    = 65160
+        chksum    = 0x6322
+        urgptr    = 0
+        options   = [('MSS', 1460), ('SAckOK', b''), ('Timestamp', (877960071, 401105167)), ('NOP', None), ('WScale', 7)]
+
+###[ Ethernet ]### 
+  dst       = 02:42:7a:d1:94:aa
+  src       = 02:42:ac:11:00:02
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 31918
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xc445
+     src       = 172.17.0.2
+     dst       = 45.33.32.156
+     \options   \
+###[ TCP ]### 
+        sport     = 46642
+        dport     = http
+        seq       = 2136429018
+        ack       = 451608835
+        dataofs   = 8
+        reserved  = 0
+        flags     = A
+        window    = 502
+        chksum    = 0xf9f6
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (401105337, 877960071))]
+
+###[ Ethernet ]### 
+  dst       = 02:42:ac:11:00:02
+  src       = 02:42:7a:d1:94:aa
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x30
+     len       = 52
+     id        = 8068
+     flags     = DF
+     frag      = 0
+     ttl       = 42
+     proto     = tcp
+     chksum    = 0x3740
+     src       = 45.33.32.156
+     dst       = 172.17.0.2
+     \options   \
+###[ TCP ]### 
+        sport     = http
+        dport     = 46656
+        seq       = 2564792940
+        ack       = 2641321325
+        dataofs   = 8
+        reserved  = 0
+        flags     = A
+        window    = 506
+        chksum    = 0x4420
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (877960234, 401105330))]
+
+###[ Ethernet ]### 
+  dst       = 02:42:ac:11:00:02
+  src       = 02:42:7a:d1:94:aa
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x30
+     len       = 2379
+     id        = 8069
+     flags     = DF
+     frag      = 0
+     ttl       = 42
+     proto     = tcp
+     chksum    = 0x2e28
+     src       = 45.33.32.156
+     dst       = 172.17.0.2
+     \options   \
+###[ TCP ]### 
+        sport     = http
+        dport     = 46656
+        seq       = 2564792940
+        ack       = 2641321325
+        dataofs   = 8
+        reserved  = 0
+        flags     = PA
+        window    = 506
+        chksum    = 0x30e
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (877960234, 401105330))]
+###[ Raw ]### 
+           load      = 'HTTP/1.1 200 OK\r\nDate: Sun, 08 Oct 2023 21:59:05 GMT\r\nServer: Apache/2.4.7 (Ubuntu)\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Encoding: gzip\r\nContent-Length: 2068\r\nKeep-Alive: timeout=5, max=100\r\nConnection: Keep-Alive\r\nContent-Type: text/html\r\n\r\n\x1f\\x8b\x08\x00\x00\x00\x00\x00\x00\x03\\xedY_o\\xdb8\x12\x7f\\xf7\\xa7`\x15\x1cl\x1f,+\\xceu\\xefn\x1b\\xdb\x077q\\xdb\x00\\xdb$h\\xbc-\x16E\x1fh\\x89\\x96\\xd8P\\xa4JRv|\\xdb\\xfd\\xee;CJ\\x8a\\x9dd\\xdb\\xd8)\\xee\\xe9\\xfa\x10\\x8b\\xa3\\x99\x1f\\x87\\xf3\\x8f3\\xea\\xf0\\xd9\\xe9\\xc5\\xc9\\xec\\xb7\\xcb)\\xc9l.ƭ!\\xfe\x10Ae:\n\\x98\x0c\\x90\\xc0h\x02?\\x96[\\xc1Ư\x15\\xa1H T&\\xe4*\\xa6\\xf2-{6\\x8c\\xfc\\xbb\\xd60g\\x96\x12Is6\n\\x96\\x9c\\xad\n\\xa5m@b%-\\x93v\x14\\xacxb\\xb3Q\x96<f\\xa1[\\xf4\\xb8\\xe4\\x96S\x11\\x9a\\x98\n6\x1a\x04\\xdb\x186c9\x0bc%\\x94ހ98\\x9a\x1c\\x9e>\\xff\ty\x05\\x97\\xd7D31\n\n\\xf8\\xabh\x12\x10jF\x01\\xcfi\\xca\x02\\x92i\\xb6\x18\x05\\x91[\\x99\\xc8p\x0b,\\xa9\\xea\x172\r\\x88\'\\xf2\\xff2`\x1f\\xfc\\xf3\\xdf\\xc5MMұa\\xf6a\\xa9\x1e\\xb9K\r\\x8fn\\xf0\x059\\xbay\\xb46&\\xa3\\x9a%5\\x9046\\xe4p2\\xd37\\xcbt\x1b\\xc3ص`&c\\xccޕ\\x8d\\x8d\x13\\xec\\xc3\\xef\x7f\\x96\\xa3#\x143\\xb1慅\\xed\\xd62&p\\x86[\\xe6Ϟ\\xf7s\\xc5:\\x8c<\\xebn[\\x85\x0b\\xa5n\\xf7#9K8\\xc5Sr\t\x12J\\xe2Y\\xd1[\\xdc\\xf4\\xfd\\xab6\x15\\xa2\\xfd\\xfd\\xe3\\x80\x15\x11\x14\x19\\x9f\\x85\\xe1k\\xa5R\\xc1\\xc8DR\\xb1\\xb6<6\\xe4D%,\x0c\x1f6\\xac\\x87Ȭ-̋(Z\\xadV\\xfdԉ\\x87\\xb4\x16\\xef\\xc7*\\x8fnW\\x9f\\x8d\\xf7\\x86?\\xfe\\xad\\xcdƭ\u03a2\\x94\\xb1\\xe5Jvx\\xcf\\xf4T/\\xed\\xe9\x1e\\xed\\xe5\\xdd\\xdf\\xf9ǶשQ\\xe9b\\xfe\\x99Ŷ\\xfdi\\xa4\\x8f\\xf9G\\xfdi\\x84\x7f\\xbe~m仿\\xb7:H\\xea\x7f\x19\\xf9\\x9f\\xaf_?~\\xea\\xf6\\x8b\\xd2d\x1d\\xaa\\xd32\\x87\\xf85\\xdd?z\\xee\\xa5\x18\r\\xfe.ي\\x9cR\\xcb:\\xddc:\x02\\x8d5\\x83\\xc5T0d\\xec\\xa8n\\xaf\\x95\x035e\\xb6"\\x99\\x97\\xeb\x19M\\xcf!7\\xe0\\xe5\\xc7\\xc3OǴ\\xef<>\x1a\\xc0\x13z==\\xce\\xfb\x058N\\xdas\\xb0]\\x9fKô}\\xc9\x16J\\xb3\x0e\x1e\\xa9\\xf5G\\xb7\\xb3\\xe22Q\\xab^\\xa2b\\xa7O\\xaf\\xed\\xed\\xd0\\xee\\xb5\x1fiG\\xe0Li\\xbb{\\xdcJi\\xa7\\xedUn\\xf7H\\xfb\\xd7I8\x18\x1c\x1e\\xfe\\xfc|\\xf0\\xafp\\x80\x04ZZU\\xb3\x19&\x13\\xa4\x15\x10\\xf5X\x19\\x90\\xbe\x11\\x8a\\xe0\\xfd\\xe9\\xf9)\\xf9\\xeb\x08x;\\x9dM\\xc8\\xf9\\xe4\\xedt\x14\\xbc\\xbbxy1\\xbb\n\\xc8\\xc9\\xc5\\xf9lz>\x1b\x05\\xe7\x17\\x93w\'o\\xce\\xdeO\\xef\x04\\\x06\\xd5\'.-\\xc1\\xfc\\xfa\\x8b\\xf4\\xb3\\\\xaeC\\xb6f\\xc8\\xe2\\xeb\\x82]\x17\\xacJ\\xd9\x08\t\x00\x19U\x05p\\xae\\x92\\xf5x\\x98\\xf0%\\xe1\x10\\xed\\x98\x15+M\\x8b\\x82i`j5t\\xb0i\t\x04\\xe2\x08\\xb1\\xa0\x06bn.Jd"\\xc4\\xd5R\\xa6\x1b\x00\\\\xa24\\x81\x7fC\\xdaȇ\\xaa`\\x8d\\xca\x07\x0e\\x91P\\xcdi(\\xe8\x1c\\x8fv\x01\\xafI\\xbd\\x91\\x93\\xe5yJ|y\r\\x9e?\x07I\\xc6\\xd3\\xcc\\xfag*ࡒ\\xcfx\\x920\t\\xa9\\xaaK\x16x\\xd1\\xedj\\xf1PY:\\xd8\\xd8i\x18\\xd1\\xf1=mc\\xa1LS\\xe0\x0e\\xb6U=\\xc1w\\xffC]\\xbd.\x1bʶn\\x95EN\\xac\\xdaM0l\\xab\\xfaF\\xe5\\x8c`\\x80\\xd6⨨ӨyC\\xbc\\xf8ޗDu\\x80\x07o$%\\x99\\xd6JWu\\xb4^\\xc9R\\x88cG\\xa96\\xad\\x9f\x1b\\xc3\\xfd|XY\x13\\xae\\xb1\\xf1\\xed\\x91%\\xbd\\x8d\\xd3\x14\x16A\\xe3\\xb7*(%\\xa6\\xca\\xddB*sZ\\xf4\\x95N\\xa3`|^=n\\xba\\xfc\\x9b\\xa2E\x0c\x02X,@\\xb6~~\\xac\\xb0a\\xb1\\xe0ƚj鬒\\xe5\x0e\x10V)\\xe1d\x1cB\\xb3z,\x02\\x96˸ԬR\\xe2lcYC\x0c#0eea\\xa8\\xaay\\x83\x07V6\\x8c\\xea8\x0b\\xb6\\x92\\xbb!RwC`\\xf0:B\\xd4Ę,\\xa0D\\xddC\t\\xbf\x04U\x0f\\xf4\\xa5\\xaeI5R!h\\xcc2%\\xa0\\x8e\\x8c\\x82+\x08!r\\xe5\\xdfT\\x88\\xf3\\xd2Z%\x1f\\x80\\xf4/\x00\x0e\\x9b5\x10ݔ\\xf2\\xc1\\xee\\xee\\xe8\\xaaO{\x01\\xb5\\xfco\\xc7\\xd4\x14`\\xc8PS\\xd0\\xfe\\xc5 \x1a\x1c\\xff\\x88\x1c5\\xdb;G^\\xb1ʾhUg`_w\\x99\\xc6Z\x1aA1\\xc5J\\xec~\\xa0E\\xa4\\6f\\xae\\xfaBW\\x84\\x8b\\xf1\x1b&\\x84\\xea\\xb9\\xeet\\xc5D\\x8c\\x89k\\x95kTs\\xd6w!}\\xa1!G)\\x81\\x9b\x11\\xfbPRh\\xb5\\xe4\tK\\xc8|M\\xa0\\xdf\\xc4\x18y8%|F\\x80\\xb1!&\\xb8];LHRr\\xa9\x156\x05\x18!}\\xa7\\xc2\x07\x06\\xe0\\x96\\x94\x05\\xc1\\%9\\x8d3.\\x9d\x1a\x19\x13\x05Y(qm\\x88\x00\x1bHB\\xe7\n\\xbc\\xefpQc*\\x8cB>ˌu\\x84\\x9c^\x03\x18\\xc4 @Q\\x8b\\xfaq\\xed\\xd9!V-4Y\\xe8\x17I:J\\x933\\xb0\\x82\\x96\\xb0/\\xd8C2\x17m]\x02ۯ\\x94\\xbe\\xe6P}\\xe0\\x9cpU\\x89u\\x9f\\x90\\xdfT\t\\xeec\x04.h\\xb8#\\xa1\x07NpSh\\xc1\\xe5\\xb6\\xc6+n3\\xbf\x1b\\xe0+\\xd8\\\x13\\xec\\xe8\x1d\'\\x9c\\xdc\x00\\xd4L\\xaf\\x89T\\xd6\x1d\\x8e\\xe69p(\\xe9̈\\xe6\\x85\x15\\xe4 \\xbc\\xd0\t\\xb0N\\xc8\x02\\xba\x1d\\x945\\xa0=x \\xa1kTp\x01[\\xf5\x08\\xc4\x00I\\x94l{t\x02\\xc1\x07q\\x9a3S\\xf1\\x81\x02\\xa5a^=,\\x9b\\x8d\\x95֪\\xd4Ę\\x8c\\xccui\x19\\xf4\\xa9\x1a}\n\\xa1\x0f\\xe7NH\\xaci\\xecN\\x8f\\xb5\\xc0{g\\x96Qym\\x86s\\x88\\xab\U0001ebf7*\\xc0b\\xad\x12\x18<Ưܯ\\xab\x00\\xc3\x08Co\\x8c\\xfdJ=\\x8f\x10\\xecOZCl\\x907.v\\\\xfa\x00\\xffn\\x99@\\xd6\\xff\\x97\\x89\\xfd\\xca\\xc4f\\x93\\xb5\x10\\xec\\xc6]\x1a\\xc1]zX\x94\\xe9&٣\\xf1n\\xf7߽l\\xc7(\\x80\\xc2t\x04`\\xa5p\\xed\\xe6\\xa3\x11\\xe7J]C\\xf8\\xc8>\x0e\\xd8\\xc1\\xf8\x1d[\\x90\\xd7%T\x1e\x1fX\\xbb\x02U\\xf9_\\x81\\x9d\\xf9՞\\x800\n\\x98\n\\xe8\x14\x1e\\xf7\\x90_\\xb9\x11\\xb0\\xc1\\xf0˝q\x14\\xcbk\\xbb_L\\xdfV\t\\xe7\\xcc\\\\xd5\\xff\\xbd\\xbdz\\xb75\\x81\n\x11_c\\xad\\xa4\\x85\\x85t\\xdfë\rb\\x8a&\x07\\xdc_\\xa1\\xe2\\xb5͎\x1e\\xb8\\x83\\xe2\\xd6a\x96n\\xe9\\xccy\\xe0i\\xb4\\xe0\\xc1xryF\\x92]\x1c\\xd4\\xc0\x1f\\xd4.\\xda\\xc3;\rH\\xe5\x1eg\\xbf\x1f\\xeb\\x9f\\xfbݟO\\xba_\\x90\\xb8\\xbbs\\xb6\\xe00\\xba`\\x98\\x95\n\\x86tV\\x87פZ?\\xd6\x08\\xf7\x11\\xc1I5\\xd8)[\ue173\\x80\\xd6>\\xe1\x06\'\x16\\x88A@{\x05\x04r\\xdaP\\xf6\x02U\\xc6@!\\x8f\x01\\xcd\r\\x89Wp=Ƭ)c{A&\x14j\x0b\\xe0\x02\\xe6K\\x98\\xf6\\xe3lz\x13\\xc3%\\x9a\\xb2\x1f\x1b\x01\\xdbͻ\x0f\\x80\x19\\xd2\\xf6\n\\x80\x06-\\xb24\\x8d\\x96\\xa5\\x90aݶ\\xc09\\xdeúicv0\\xca6*\\xb6\x19!-\x13n\x01\\xf2\\xb2\\xee9\x1cao\\xcc\x15\\x9bo*\\xfa\\x81͟\\xae\\xe7\\x8ak&\\x98s\\xe0\\x87\\xeaqo,S\x08\\xc5-BMoܣ\\xeb@\x7f`$\\xdc\x19\\xc2&\\xd8!\\xef\x1e\x01\x0f4r5Xt\x02\\x8d\x1b\\x8d\x1f\\xed\\xa2-\\xa8B\\xf3%\\x8d\\xd7\\xd5Mw\\xe9W{!\\xd1\x04\\xfac\\xcb\rt\\xa7\x15\\xda䖲\\xf3\\xd5)\x0b#\\xeaztY\\xce\x05\\x8f\\xeb\\xd4\\xff\x05\\x86\x1c\\xd8\\xf7Q\x1e"F\\xc5\\xf85\x1e\\xb7rmԷw\\xb70 @\\xd3\\xeb.\x07Ԥ\\xe9\x19\\xdf\\xc3!`\x0028\x0c\\xcc<\\x93\\xfb$\\xb6\\xf1\\xe5\\xe7\x1fG\\xb7_~\\xf0\\xf9\\xfb\\xed`\\xb5\\xdb7:K7)\\xd2諾\\x80\\xc6\x18{\\xa8o\\xeb\\xfd\\xaa\\xe2z\\xba\\xe2\\xf5~O\\xd7<\\x85\\x81\\xac\\x9c7zG\x0f*\\xfe\\xda1=]m\\xbf\\xd9ӕ\\x86\r\\xa0 :\\xa5\\xf5\x1d\\xb5\\xf1\\xae+\\x8d\\xa9fLI\\xde9֧\\xab\\xee\\xb7|\\x8c\\xea[\x1f\x16p\\xaa\\xc0)\x0e\\xe79Gqs^\\xf5\\x91\\xd7\\xcdy0\\x84\\xe0G`\\xfc&\\xec\\xfe\\xb3\\xac\\xf5\';\\xbb\x00\n>\x1b\x00\x00'
+
+###[ Ethernet ]### 
+  dst       = 02:42:7a:d1:94:aa
+  src       = 02:42:ac:11:00:02
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 30963
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xc800
+     src       = 172.17.0.2
+     dst       = 45.33.32.156
+     \options   \
+###[ TCP ]### 
+        sport     = 46656
+        dport     = http
+        seq       = 2641321325
+        ack       = 2564795267
+        dataofs   = 8
+        reserved  = 0
+        flags     = A
+        window    = 496
+        chksum    = 0xf9f6
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (401105482, 877960234))]
+
+###[ Ethernet ]### 
+  dst       = 02:42:7a:d1:94:aa
+  src       = 02:42:ac:11:00:02
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 482
+     id        = 28007
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xd1de
+     src       = 172.17.0.2
+     dst       = 45.33.32.156
+     \options   \
+###[ TCP ]### 
+        sport     = 46670
+        dport     = http
+        seq       = 417437235
+        ack       = 1828517784
+        dataofs   = 8
+        reserved  = 0
+        flags     = PA
+        window    = 502
+        chksum    = 0xfba4
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (401105566, 877960084))]
+###[ Raw ]### 
+           load      = 'GET /images/sitelogo-2x.png HTTP/1.1\r\nHost: scanme.org\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0\r\nAccept: image/avif,image/webp,*/*\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\nReferer: http://scanme.org/\r\nCookie: _ga=GA1.2.888684764.1696801399; _gid=GA1.2.567181415.1696801399; _ga_ZLCVHN7NXS=GS1.2.1696801399.1.1.1696802323.0.0.0; _gat=1\r\n\r\n'
+
+###[ Ethernet ]### 
+  dst       = 02:42:ac:11:00:02
+  src       = 02:42:7a:d1:94:aa
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x30
+     len       = 563
+     id        = 25678
+     flags     = DF
+     frag      = 0
+     ttl       = 42
+     proto     = tcp
+     chksum    = 0xf076
+     src       = 45.33.32.156
+     dst       = 172.17.0.2
+     \options   \
+###[ TCP ]### 
+        sport     = http
+        dport     = 46670
+        seq       = 1828517784
+        ack       = 417437665
+        dataofs   = 8
+        reserved  = 0
+        flags     = PA
+        window    = 506
+        chksum    = 0xfb2
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (877960470, 401105566))]
+###[ Raw ]### 
+           load      = 'HTTP/1.1 404 Not Found\r\nDate: Sun, 08 Oct 2023 21:59:06 GMT\r\nServer: Apache/2.4.7 (Ubuntu)\r\nContent-Length: 295\r\nKeep-Alive: timeout=5, max=100\r\nConnection: Keep-Alive\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL /images/sitelogo-2x.png was not found on this server.</p>\n<hr>\n<address>Apache/2.4.7 (Ubuntu) Server at scanme.org Port 80</address>\n</body></html>\n'
+
+###[ Ethernet ]### 
+  dst       = 02:42:ac:11:00:02
+  src       = 02:42:7a:d1:94:aa
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x30
+     len       = 52
+     id        = 25677
+     flags     = DF
+     frag      = 0
+     ttl       = 42
+     proto     = tcp
+     chksum    = 0xf276
+     src       = 45.33.32.156
+     dst       = 172.17.0.2
+     \options   \
+###[ TCP ]### 
+        sport     = http
+        dport     = 46670
+        seq       = 1828517784
+        ack       = 417437665
+        dataofs   = 8
+        reserved  = 0
+        flags     = A
+        window    = 506
+        chksum    = 0x630b
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (877960470, 401105566))]
+
+###[ Ethernet ]### 
+  dst       = 02:42:7a:d1:94:aa
+  src       = 02:42:ac:11:00:02
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 28008
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xd38b
+     src       = 172.17.0.2
+     dst       = 45.33.32.156
+     \options   \
+###[ TCP ]### 
+        sport     = 46670
+        dport     = http
+        seq       = 417437665
+        ack       = 1828518295
+        dataofs   = 8
+        reserved  = 0
+        flags     = A
+        window    = 501
+        chksum    = 0xf9f6
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (401105718, 877960470))]
+
+###[ Ethernet ]### 
+  dst       = 02:42:7a:d1:94:aa
+  src       = 02:42:ac:11:00:02
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 28009
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = tcp
+     chksum    = 0xd38a
+     src       = 172.17.0.2
+     dst       = 45.33.32.156
+     \options   \
+###[ TCP ]### 
+        sport     = 46670
+        dport     = http
+        seq       = 417437665
+        ack       = 1828518295
+        dataofs   = 8
+        reserved  = 0
+        flags     = A
+        window    = 501
+        chksum    = 0xf9f6
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('Timestamp', (401105718, 877960470))]
+
+###[ Ethernet ]### 
+  dst       = 02:42:7a:d1:94:aa
+  src       = 02:42:ac:11:00:02
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 70
+     id        = 7267
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = udp
+     chksum    = 0xaf8a
+     src       = 172.17.0.2
+     dst       = 192.168.1.254
+     \options   \
+###[ UDP ]### 
+        sport     = 52614
+        dport     = domain
+        len       = 50
+        chksum    = 0x6efd
+###[ DNS ]### 
+           id        = 28959
+           qr        = 0
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 0
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'www.google-analytics.com.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+
+###[ Ethernet ]### 
+  dst       = 02:42:7a:d1:94:aa
+  src       = 02:42:ac:11:00:02
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 416
+     id        = 0
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = udp
+     chksum    = 0x4b91
+     src       = 172.17.0.2
+     dst       = 142.250.178.174
+     \options   \
+###[ UDP ]### 
+        sport     = 37565
+        dport     = https
+        len       = 396
+        chksum    = 0xef59
+###[ Raw ]### 
+           load      = 'E\\xee\\xd4:\x15sTDB\\x8c\x0b7\\x8c4\\xb3s\\xf2\\xe1ß\\xa1\\x970,\\xa1\\xfd#\x03\\xd5d\\xe6\\xbfu\\xcc\x1c\\xe3~\x061Q0D\x1b\\x94\\xbe+\\xd8TR\x17lF\\xe4\\xf8:\\xb1U\x0fb}\\xaf\\x97\\xe35JF\\x94F$N\\xaf_\x1av\\xac|\\xa2W\\x98\\xd7FP3\\xe6\x1fK\\x98\\xed`\\x8a\\xa3\\xfd8\\xf0TZ\\x85\\x86Έ\\xe9\\xa1\\xd7ܷ\x15\\x99\\xa0\\xaaOi\\xec\\xb9)6u\\xba\\xdb]9$\\xb9M\\x94\\x8f@~\\xbe\\x82\\xd8\x13w\'\\xd5<S\\xd6`\x9d\x02s\\x8b\\xe7fM\\x9b\\x989R\\xb4ٿ\x1c`a\\x8c\x08w̚\x0bQ\\xdd\\xc0\\xfe\\xf3Z`\x1a\\x97P>\\xc1\\xe0\x0bcl\\x85\x1f$Hݒ\\xb0\\x83\\xe4\\x8c\t\\x9f\\xd7Lm.\\xf0h]\x00\\xd4\\xca\\xf799\\xaf\\x95g\\x9d#@\\xba\\xeeA\x08\\xc0\\xe7C\tj\\xe5\n\x17\\xf4\\xa7\\xcc6T\\xd3IP\\x90\x10>\x1e6r\x1c\x01\\xfb\\xd6\\xe3\\xba.U\r\\xdb/9\\xd8"\\xa8}J\\xf5\x0b[>\x1f\x03\\xd8dȚ\\xb6\\xa4G\\xaa\\xc0G)8\\xb4\\xe2\\xf0\\xb8\\xf6(Ǒ/\\xa7\\xfb1 a=\x16ܪ\\xa1u\x02\\xef\\x82\\xd3aX!\\xd70WG\\xdf\x14\\xf7h\\x98\\x9c\\xbdr\\xc8\x12\\xc4,\\xcfN-\\xf9\\xd8\\xe8W\\x92k\\xeb\x08\'\x08Z\\x97\\xf3\\xeeP\\x87\x19\\x8e\\xbe$\\x92^\\xe0\\x9d\\xf4\\xb6M\x03\\x83ǿ\\xe0\\xa6ڵ\\xa7\\xde*\x14\\xe6\x19\\xaa\\xb9\\xf2\\x8e\\xf7P\\xf4\\xbe\\xf7\x03ZG\\xe4\\x8a\\xe8\x05\\xfc\\xf9(\\xd9\\xcdh#\x0c\\xae\\x8c-Yl\x05H'
+
+###[ Ethernet ]### 
+  dst       = 02:42:ac:11:00:02
+  src       = 02:42:7a:d1:94:aa
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x88
+     len       = 86
+     id        = 39175
+     flags     = 
+     frag      = 0
+     ttl       = 63
+     proto     = udp
+     chksum    = 0x734e
+     src       = 192.168.1.254
+     dst       = 172.17.0.2
+     \options   \
+###[ UDP ]### 
+        sport     = domain
+        dport     = 52614
+        len       = 66
+        chksum    = 0x1ce7
+###[ DNS ]### 
+           id        = 28959
+           qr        = 1
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 1
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 1
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'www.google-analytics.com.'
+            |  qtype     = A
+            |  qclass    = IN
+           \an        \
+            |###[ DNS Resource Record ]### 
+            |  rrname    = 'www.google-analytics.com.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 297
+            |  rdlen     = 4
+            |  rdata     = 142.250.178.174
+           ns        = None
+           ar        = None
+
+###[ Ethernet ]### 
+  dst       = 02:42:ac:11:00:02
+  src       = 02:42:7a:d1:94:aa
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 58
+     id        = 0
+     flags     = DF
+     frag      = 0
+     ttl       = 57
+     proto     = udp
+     chksum    = 0x53f7
+     src       = 142.250.178.174
+     dst       = 172.17.0.2
+     \options   \
+###[ UDP ]### 
+        sport     = https
+        dport     = 37565
+        len       = 38
+        chksum    = 0x45a9
+###[ Raw ]### 
+           load      = "A&\\xc4j\\xb7\x1e\\xac\\xad\\xd1\\xf87U|*5\\xa0\\x84\x14\\xe1\\xe4|5۷\\xb1\\xb4\\x98\\x8b\x0b'"
+
+###[ Ethernet ]### 
+  dst       = 02:42:ac:11:00:02
+  src       = 02:42:7a:d1:94:aa
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 115
+     id        = 0
+     flags     = DF
+     frag      = 0
+     ttl       = 57
+     proto     = udp
+     chksum    = 0x53be
+     src       = 142.250.178.174
+     dst       = 172.17.0.2
+     \options   \
+###[ UDP ]### 
+        sport     = https
+        dport     = 37565
+        len       = 95
+        chksum    = 0x4f14
+###[ Raw ]### 
+           load      = "J&\\xc4j/qr\\xf5\x11\\x8e\uf73a\\xc2Q\\xc1\x07c\\xb0)'\\xf4\\x95]\\xcby\\xd7{9[PW{\\xc0\\xc1\x08\\xb4\r\\xac\x182\\x92\\xb1J]0\\xacD\\xf0\\x9b\\xe5\\xce\\xf2\\xe9\\xdd\x00?r\x16[k\x04\x14\\xb6\\x8b\\xe0'4\x12\\x9f\\xdb\\\\xcfh\\x8d\x16 \x16\\xe8\\x9b\\xd9\x08\\xdd/\\xee\x1f\x1d"
+
+###[ Ethernet ]### 
+  dst       = 02:42:ac:11:00:02
+  src       = 02:42:7a:d1:94:aa
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 0
+     flags     = DF
+     frag      = 0
+     ttl       = 57
+     proto     = udp
+     chksum    = 0x53fd
+     src       = 142.250.178.174
+     dst       = 172.17.0.2
+     \options   \
+###[ UDP ]### 
+        sport     = https
+        dport     = 37565
+        len       = 32
+        chksum    = 0x7b4a
+###[ Raw ]### 
+           load      = 'R&\\xc4j>\x13\\xab\\xffy\\xa3\\xbb\x1e\\xb5\x07Ի\\xf26\x0f\\x9a{\\xdc\\xc5W'
+
+###[ Ethernet ]### 
+  dst       = 02:42:7a:d1:94:aa
+  src       = 02:42:ac:11:00:02
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 70
+     id        = 0
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = udp
+     chksum    = 0x4ceb
+     src       = 172.17.0.2
+     dst       = 142.250.178.174
+     \options   \
+###[ UDP ]### 
+        sport     = 37565
+        dport     = https
+        len       = 50
+        chksum    = 0xedff
+###[ Raw ]### 
+           load      = 'I\\xee\\xd4:\x15sTDB7ƆC""*q>\\xec\x17\\xe6\x1b\\xa8\\xb8\rƒ\\xf3>\\xed\x00\\xd4N\\xad\x0bL[\\xe9=\\x81A|'
+
+###[ Ethernet ]### 
+  dst       = 02:42:7a:d1:94:aa
+  src       = 02:42:ac:11:00:02
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 60
+     id        = 0
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = udp
+     chksum    = 0x4cf5
+     src       = 172.17.0.2
+     dst       = 142.250.178.174
+     \options   \
+###[ UDP ]### 
+        sport     = 37565
+        dport     = https
+        len       = 40
+        chksum    = 0xedf5
+###[ Raw ]### 
+           load      = '|\\xee\\xd4:\x15sTDB\\xc5+\\xfe\n-?Fl\\xa4\\xd9(\\xb9Ս\x1b\\x9d\\x8c3J\\xbb\x04?\\xed'
+
+###[ Ethernet ]### 
+  dst       = 02:42:ac:11:00:02
+  src       = 02:42:7a:d1:94:aa
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 55
+     id        = 0
+     flags     = DF
+     frag      = 0
+     ttl       = 57
+     proto     = udp
+     chksum    = 0x53fa
+     src       = 142.250.178.174
+     dst       = 172.17.0.2
+     \options   \
+###[ UDP ]### 
+        sport     = https
+        dport     = 37565
+        len       = 35
+        chksum    = 0xea30
+###[ Raw ]### 
+           load      = 'I&\\xc4j\\x86\x1b\\xc4\\\r:\\x9bX\\xd0nMM\\xbf\\x95\x00Ώ\\x9b\\xf4\\xf7\\xd2\\xf2]'
+
